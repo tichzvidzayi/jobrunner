@@ -11,8 +11,9 @@ A custom Laravel 11x job runner
   https://github.com/tichzvidzayi/jobrunner.git
 
     ```
-2. Run `composer install`.
-3. Set up your `.env` file.
+2. Run 
+``` php composer install ```.
+3. Set up your .env file.
 
 
 ## Usage
