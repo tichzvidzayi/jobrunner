@@ -39,3 +39,20 @@ runBackgroundJob('App\Jobs\SampleJob', 'handle');
     php App/Test/BackgroundJobRunnerTestScript.php
 
 ```
+
+## Configuring Retries, Delays, and Priorities
+The job runner supports configuring retry attempts, delays, and priority levels for job execution. Set these parameters in the config/jobrunner.php file.
+
+- Retries: Set the number of retries for a failed job.
+- Delays: Specify a delay time (in seconds) before a job is executed.
+- Priority: Jobs with higher priority will run before those with lower priority.
+
+## Logging
+Logs are stored in the storage/logs directory:
+
+Job Logs: Track job execution statuses in background_jobs.log.
+Error Logs: Errors are recorded in background_jobs_errors.log.
+### Security
+For security, only pre-approved classes can be executed as background jobs. Class and method names are validated to prevent unauthorized code execution.
+
+### To register classes allowed for background execution, add them to the config/jobrunner.php file:
