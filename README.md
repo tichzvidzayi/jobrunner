@@ -9,7 +9,7 @@ A scalable and secure custom job runner for Laravel 11x applications, allowing f
 - Error Handling and Logging: Capture and log errors in a separate log file with status tracking (e.g., running, completed, failed).
 - Retry Mechanism: Configurable retry attempts for failed jobs.
 - Security: Validate class and method names and restrict background execution to pre-approved classes.
-- Optional Advanced Features: Web-based dashboard for job status monitoring, job delays, and priority-based execution.
+- A Web-based dashboard for job status monitoring, job delays, and priority-based execution.
 
 ### Installation
 
