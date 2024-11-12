@@ -7,8 +7,9 @@ A custom Laravel 11x job runner
 ## Installation
 
 1. Clone this repository.
-    ```
+    ```php
   https://github.com/tichzvidzayi/jobrunner.git
+
     ```
 2. Run `composer install`.
 3. Set up your `.env` file.
