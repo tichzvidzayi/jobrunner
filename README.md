@@ -52,6 +52,7 @@ Logs are stored in the storage/logs directory:
 
 Job Logs: Track job execution statuses in background_jobs.log.
 Error Logs: Errors are recorded in background_jobs_errors.log.
+
 ### Security
 For security, only pre-approved classes can be executed as background jobs. Class and method names are validated to prevent unauthorized code execution. 
 To register classes allowed for background execution, add them to the config/jobrunner.php file:
