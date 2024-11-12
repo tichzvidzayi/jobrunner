@@ -22,3 +22,13 @@ To run a job in the background, use the following command:
 
 ```php
 runBackgroundJob('App\Jobs\SampleJob', 'handle');
+
+
+```
+
+### To test the backgroundjob run the following command
+
+```bash
+    php App/Test/BackgroundJobRunnerTestScript.php
+
+```
