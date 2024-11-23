@@ -2,8 +2,8 @@
 
 A scalable and secure custom job runner for Laravel 11x applications, allowing for background execution of PHP classes independently of Laravel's built-in queue system. This job runner supports error handling, configurable retries, logging, and an optional web-based dashboard.
 
-## Features
 
+## Features
 - Custom Background Execution: Run PHP classes as background jobs outside of Laravel's built-in queue system.
 - Cross-Platform Support: Execute jobs on both Windows and Unix-based systems.
 - Error Handling and Logging: Capture and log errors in a separate log file with status tracking (e.g., running, completed, failed).
